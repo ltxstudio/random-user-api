@@ -1,0 +1,15 @@
+{
+  "name": "random-user-generator",
+  "version": "1.0.0",
+  "description": "A simple Node.js backend API for generating random user data",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "faker": "^5.5.3"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
