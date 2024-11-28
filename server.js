@@ -41,6 +41,18 @@ app.get('/api/random-user', (req, res) => {
             twitter: faker.internet.url(),
             linkedin: faker.internet.url(),
             github: faker.internet.url()
+        },
+        jobTitle: faker.name.jobTitle(),
+        jobArea: faker.name.jobArea(),
+        jobType: faker.name.jobType(),
+        education: {
+            degree: faker.name.jobType(),
+            university: faker.company.companyName()
+        },
+        creditCard: {
+            number: faker.finance.creditCardNumber(),
+            expiry: faker.finance.creditCardExpiry(),
+            cvv: faker.finance.creditCardCVV()
         }
     };
     res.json(randomUser);
