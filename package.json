@@ -8,8 +8,8 @@
     "dev": "nodemon server.js"
   },
   "dependencies": {
-    "express": "^4.17.1",
-    "faker": "^5.5.3",
+    "express": "^4.21.1",
+    "faker": "^6.6.6",
     "cors": "^2.8.5"
   },
   "devDependencies": {
